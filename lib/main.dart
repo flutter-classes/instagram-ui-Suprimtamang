@@ -4,6 +4,9 @@ import 'package:instagram/ig_post.dart';
 
 import 'package:instagram/accountsection.dart';
 import 'package:instagram/search%20bar/gridview.dart';
+import 'package:instagram/homepage.dart';
+import 'package:instagram/search%20bar/page.dart';
+import 'package:instagram/people.dart';
 
 void main() {
   runApp(MyApp());
@@ -48,11 +51,7 @@ class MyApp extends StatelessWidget {
                   Center(child: Grid()),
 
                   //3. + icon mah dekhaune content
-                  Center(
-                    child: Text(
-                      'Tab 3 Content',
-                    ),
-                  ),
+                  Center(child: Pageview()),
 
                   //4. shop icon ko page mah dekhaune content
                   Center(
